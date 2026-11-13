@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment and secrets
+.env
+.env.*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Raw data (dataset is not distributed with the repository)
+data/*.csv
+!data/README.md
+
+# Generated outputs (regenerate by running the notebook)
+ecommerce_churn_clean.csv
+data_quality_report.csv
+model_artifacts/
